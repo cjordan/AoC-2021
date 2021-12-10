@@ -1,0 +1,13 @@
+name:                aoc2021
+version:             0.0.0
+license:             MPL-2.0
+author:              "Christopher Jordan"
+
+dependencies:
+- base >= 4.7 && < 5
+- split
+
+executables:
+  day1:
+    main:         day1.hs
+    source-dirs:  app
