@@ -85,7 +85,6 @@ fn solve2(input: &str) -> usize {
         .collect();
 
     scores.sort_unstable();
-    dbg!(&scores);
     scores[scores.len() / 2]
 }
 

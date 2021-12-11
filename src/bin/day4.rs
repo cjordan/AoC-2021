@@ -141,7 +141,6 @@ mod test {
     fn parse_correctly() {
         let input = get_test_data();
         let (draws, boards) = parse_input(input);
-        dbg!(&draws, &boards);
         assert_eq!(draws[0], 7);
         assert_eq!(*draws.last().unwrap(), 1);
         assert_eq!(boards.len(), 3);
